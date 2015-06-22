@@ -1,0 +1,26 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.4
+RVersion: 3.2.1
+Repos: CRAN=http://cran.rstudio.com
+
+Package: XLConnect
+Source: CRAN
+Version: 0.2-11
+Hash: 9671b8bb38db7af753ee09ad7bc7b546
+Requires: XLConnectJars, rJava
+
+Package: XLConnectJars
+Source: CRAN
+Version: 0.2-9
+Hash: c3a7ea4d67acc15d861409bb55b753dc
+Requires: rJava
+
+Package: packrat
+Source: CRAN
+Version: 0.4.4
+Hash: aed7d17407538df551a57caf6289c8bf
+
+Package: rJava
+Source: CRAN
+Version: 0.9-6
+Hash: 9dbbee37bd08546ea0ed6d3dab821952
