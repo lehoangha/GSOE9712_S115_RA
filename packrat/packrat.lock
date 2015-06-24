@@ -3,6 +3,44 @@ PackratVersion: 0.4.4
 RVersion: 3.2.1
 Repos: CRAN=http://cran.rstudio.com
 
+Package: BSDA
+Source: CRAN
+Version: 1.01
+Hash: 2f3dbdda33e52426469abc0dd9bbe863
+Requires: e1071
+
+Package: Formula
+Source: CRAN
+Version: 1.2-1
+Hash: 47ae34d89a8dd8fde36c9c0b5c587819
+
+Package: Hmisc
+Source: CRAN
+Version: 3.16-0
+Hash: eece2673f4a8db622acd290cd839d147
+Requires: Formula, acepack, ggplot2, gridExtra, gtable, latticeExtra,
+    proto, scales
+
+Package: Kendall
+Source: CRAN
+Version: 2.2
+Hash: 56635d76a210843cd5b232aa48401fc9
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+Hash: c0d56cd15034f395874c870141870c25
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.6
+Hash: 193916618dce89b287517f457de8fa8b
+
+Package: VGAM
+Source: CRAN
+Version: 0.9-8
+Hash: 5dabef073a0cd8639738e7a0b425b042
+
 Package: XLConnect
 Source: CRAN
 Version: 0.2-11
@@ -15,12 +53,131 @@ Version: 0.2-9
 Hash: c3a7ea4d67acc15d861409bb55b753dc
 Requires: rJava
 
+Package: acepack
+Source: CRAN
+Version: 1.3-3.3
+Hash: 98134fc49d89dcc4662712f3111e68e6
+
+Package: colorspace
+Source: CRAN
+Version: 1.2-6
+Hash: 00bb12245cd975c450cc4a960884fa15
+
+Package: dichromat
+Source: CRAN
+Version: 2.0-0
+Hash: 08eed0c80510af29bb15f840ccfe37ce
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: de202f956596a476d09304e3a2ebf1e5
+
+Package: e1071
+Source: CRAN
+Version: 1.6-4
+Hash: 40d39393ff947247ea4347a53ffa7e73
+
+Package: ggplot2
+Source: CRAN
+Version: 1.0.1
+Hash: 4aff1b269135bd2cdea378f4f2f2895e
+Requires: digest, gtable, plyr, proto, reshape2, scales
+
+Package: gridExtra
+Source: CRAN
+Version: 0.9.1
+Hash: 769144e6a07a263654e78d5c78633dc2
+
+Package: gtable
+Source: CRAN
+Version: 0.1.2
+Hash: 38a0f066373a60824cd3ade2362af363
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+Hash: ecf589b42cd284b03a4beb9665482d3e
+
+Package: latticeExtra
+Source: CRAN
+Version: 0.6-26
+Hash: 07a60e9d5b59ddac85b9c26cd81867ca
+Requires: RColorBrewer
+
+Package: lawstat
+Source: CRAN
+Version: 2.5
+Hash: f9f9eeb17ed88f766b73f839104ee0df
+Requires: Hmisc, Kendall, VGAM, mvtnorm
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: mnormt
+Source: CRAN
+Version: 1.5-3
+Hash: d23b1cdede7a20437b68aa11f51958b8
+
+Package: munsell
+Source: CRAN
+Version: 0.4.2
+Hash: 72d343a6664778029f49a7ad36de1cab
+Requires: colorspace
+
+Package: mvtnorm
+Source: CRAN
+Version: 1.0-2
+Hash: 2206f564ec871ae8fb02bd8543e20eee
+
 Package: packrat
 Source: CRAN
 Version: 0.4.4
 Hash: aed7d17407538df551a57caf6289c8bf
 
+Package: plyr
+Source: CRAN
+Version: 1.8.3
+Hash: 36f23123a89bfe6d93b2d219387ae795
+Requires: Rcpp
+
+Package: proto
+Source: CRAN
+Version: 0.3-10
+Hash: 05d7ad64db29a39d1b02c4b9f1f4edb2
+
+Package: psych
+Source: CRAN
+Version: 1.5.4
+Hash: 1ba194c7c85f51e7e8fa597e878f35b4
+Requires: mnormt
+
 Package: rJava
 Source: CRAN
 Version: 0.9-6
 Hash: 9dbbee37bd08546ea0ed6d3dab821952
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.1
+Hash: 5990382c4af41f623890b1aeb63ffab5
+Requires: Rcpp, plyr, stringr
+
+Package: scales
+Source: CRAN
+Version: 0.2.5
+Hash: bec2b5457cce7f6b4922fc0610085a48
+Requires: RColorBrewer, Rcpp, dichromat, labeling, munsell, plyr
+
+Package: stringi
+Source: CRAN
+Version: 0.5-2
+Hash: 2b92550b55a77c4b163bc53686086a72
+
+Package: stringr
+Source: CRAN
+Version: 1.0.0
+Hash: 2676dd5f88890910962b733b0f9540e1
+Requires: magrittr, stringi
